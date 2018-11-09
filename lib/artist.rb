@@ -21,4 +21,8 @@ def add_song_by_name(song_name)
   @@song_count += 1
 end
 
+def song_count
+  @@song_count
+end
+
 end
